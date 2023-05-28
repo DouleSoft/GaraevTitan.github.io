@@ -1,0 +1,80 @@
+
+.t1 {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;   
+    display: block;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 3px black inset;
+ 
+}
+h3 {
+    text-align: center;
+     font-style: italic;
+     color: rgb(255, 255, 255);
+     background-color: rgba(0, 0, 0, 0.479);
+}
+.t3 {
+    width: 5%;
+    border-radius: 100%;
+    display: block;
+    margin-left: 45%;
+    position: fixed;
+}
+.t2 {
+    width: 5%;
+
+    display: block;
+    border-radius: 100%;
+    margin-left: 50%;
+    position: fixed;
+
+}
+hr {
+    width: 40%;
+    color: rgb(255, 254, 189);
+}
+
+
+body {
+    background-image: url(https://i.gifer.com/origin/f9/f97c1f2477337f6febfc782292bcc592.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.t4 {
+    background-image: url(https://www.plerdy.com/wp-content/uploads/2020/06/gif-collection-everyday-marketers-11.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    display: block;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    text-align: center;
+
+}
+
+  
+  
+   .t6 {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(240, 255, 255, 0.527);
+   }
+   .t8 { 
+    margin-left: 26%;
+    margin-top: 10px;
+   }
+   .t7 {
+    margin-left: 20%;
+    color: rgb(0, 0, 0);
+   }
+   h1 {
+    color: rgb(0, 0, 0);
+    background-color: rgba(245, 245, 220, 0.466);
+   }

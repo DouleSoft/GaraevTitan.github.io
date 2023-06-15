@@ -1,4 +1,6 @@
-
+body {
+    
+}
 .t1 {
     width: 70%;
     margin-left: auto;
@@ -7,14 +9,14 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    border: 3px black inset;
+    border: 3px rgba(253, 0, 0, 0.435) inset;
  
 }
 h3 {
     text-align: center;
      font-style: italic;
      color: rgb(255, 255, 255);
-     background-color: rgba(0, 0, 0, 0.479);
+     background-color: rgba(0, 0, 0, 0.574);
 }
 .t3 {
     width: 5%;
@@ -34,10 +36,41 @@ h3 {
 }
 hr {
     width: 40%;
-    color: rgb(255, 254, 189);
+    color: rgb(255, 255, 255);
 }
 
-
+  
+  .t1 {
+    opacity: 0;
+    transform: translateY(100px);
+    animation: fade-in 1s ease forwards, slide-in 1s ease forwards;
+  }
+  
+  @keyframes fade-in {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @keyframes slide-in {
+    0% { transform: translateY(100px); }
+    100% { transform: translateY(0); }
+  }
+  .t3 {
+    opacity: 0;
+    transform: translateY(100px);
+    animation: fade-in 1s ease forwards, slide-in 1s ease forwards;
+  }
+  
+  @keyframes fade-in {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @keyframes slide-in {
+    0% { transform: translateY(100px); }
+    100% { transform: translateY(0); }
+  }
+  
 body {
     background-image: url(https://i.gifer.com/origin/f9/f97c1f2477337f6febfc782292bcc592.gif);
     background-position: center;
@@ -58,23 +91,12 @@ body {
     text-align: center;
 
 }
-
+.t11 {
+  background-color: rgb(255, 255, 255);
+}
   
   
-   .t6 {
-    margin-left: auto;
-    margin-right: auto;
-    background-color: rgba(240, 255, 255, 0.527);
+   .t12 {
+    border: 12px rgb(255, 255, 255) inset;
    }
-   .t8 { 
-    margin-left: 26%;
-    margin-top: 10px;
-   }
-   .t7 {
-    margin-left: 20%;
-    color: rgb(0, 0, 0);
-   }
-   h1 {
-    color: rgb(0, 0, 0);
-    background-color: rgba(245, 245, 220, 0.466);
-   }
+  

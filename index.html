@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой блог - Главная</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Мой блог</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="photo-album.html">Фотоальбом</a></li>
+            <!-- Добавьте другие разделы блога по аналогии -->
+        </ul>
+    </nav>
+
+    <section id="content">
+     
+
+<section id="blog-post">
+    <article>
+        <div class="blog-content">
+          <hr><br>
+               <i>24.11.23 </i>  <h2 class="t1">Обо мне:</h2>
+            <p class="t1">Привет, меня зовут Титан Гараев. В детстве я отдавал свое время футболу, проведя на поле целых 9 лет с шестилетнего возраста. С возрастом мои интересы начали меняться, и я решил попробовать что-то новое. Так я погрузился в увлекательный мир операционной системы Kali Linux, где учился и разбирался в тонкостях кибербезопасности.
+
+                С течением времени я принял решение связать свою профессиональную жизнь с электротехникой. Сейчас, в 15 лет, я изучаю профессию электромонтажника, стремясь поглубже понять все тонкости этой области. Я вижу свое будущее в создании и развитии новых технологических решений.
+                
+                Мой путь от футбольных полей к миру технологий и электротехники — это не только история моих интересов, но и стремление к разностороннему развитию. Я готов к новым вызовам и уверен, что моя уникальная комбинация опыта и знаний поможет мне успешно пройти через все этапы моего профессионального роста.</p>
+                
+        </div>
+        <img src="pobn.JPG" alt="Описание изображения">
+    </article>
+</section>
+
+
+
+
+        <section id="contact">
+            <h2>Анонимное сообщение:</h2>
+            <form id="contact-form">
+                <label for="message">Ваше сообщение:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="button" onclick="sendMessage()">Отправить</button>
+            </form>
+        </section>
+        
+        <!-- Кнопка для обновления страницы -->
+        <button onclick="reloadPage()">Обновить страницу</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Мой блог</p>
+    </footer>
+
+    <script src="telegram-bot.js"></script>
+    <script>
+        function reloadPage() {
+            location.reload();
+        }
+    </script>
+    <br><br><br><br><br>
+    <h2>связь со мной:</h2>
+  <a href="https://t.me/DOU1E"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Telegram_2019_Logo.svg/640px-Telegram_2019_Logo.svg.png" alt="картинка" class="t2"></a>
+</body>
+</html>

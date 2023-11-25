@@ -1,0 +1,233 @@
+/* ... (ваш существующий код) */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    animation: fadeInDown 1s ease-in-out;
+}
+/* ... (ваш существующий код) */
+
+#blog-post img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out; /* Добавлен переход для анимации */
+}
+
+#blog-post img:hover {
+    transform: scale(1.1); /* Увеличиваем изображение при наведении */
+}
+
+/* ... (ваш существующий код) */
+
+nav {
+    background-color: #3e3e3e;
+    padding: 0.5em;
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #ffd700;
+}
+
+#photo-album {
+    margin: 20px;
+    animation: fadeInUp 1s ease-in-out;
+}
+
+#photo-album h2 {
+    text-align: center;
+    color: #434343;
+}
+
+#photo-album .photo-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    animation: fadeIn 1s ease-in-out;
+}
+
+#photo-album .photo-gallery img {
+    margin: 10px;
+    max-width: 100%; /* Максимальная ширина изображения равна ширине контейнера */
+    height: auto; /* Автоматическая высота для поддержки пропорций */
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+    animation: fadeIn 1s ease-in-out;
+}
+
+#photo-album .photo-gallery img:hover {
+    transform: scale(1.1);
+}
+/* ... (ваш существующий код) */
+
+#contact button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+/* ... (ваш существующий код) */
+
+#contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#contact-form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+#contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    resize: vertical; /* Разрешаем изменение высоты */
+}
+
+#contact-form input,
+#contact-form textarea {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#contact-form button {
+    background-color: #636363;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+#contact-form button:hover {
+    background-color: #555;
+    transform: scale(1.1);
+}
+
+/* ... (ваш существующий код) */
+
+#contact button:hover {
+    background-color: #555;
+    transform: scale(1.1);
+}
+
+/* ... (ваш существующий код) */
+
+footer {
+    background-color: #33333365;
+    color: #fff;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 20%;
+    right: 0; /* используйте right вместо margin-right для фиксированного положения справа */
+    height: 30px;
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+    border-radius: 20%;
+    /* float: right; /* уберите эту строку - float и position: fixed могут конфликтовать */
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+/* ... (ваш существующий код) */
+
+#blog-post article {
+    position: relative;
+    overflow: hidden; /* Предотвращаем выход изображения за пределы блока */
+}
+.t2 {
+    display: flex;
+    max-width: 5%;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+
+}
+#blog-post img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+    z-index: -1; /* Перемещаем изображение на задний план */
+}
+
+#blog-post article:hover img {
+    transform: scale(1.1); /* Увеличиваем изображение при наведении */
+}
+
+#blog-post .blog-content {
+    position: relative;
+    z-index: 1; /* Помещаем контент поверх изображения */
+}
+
+
+.t1 {
+    font-style: oblique;
+    text-align: center;
+}

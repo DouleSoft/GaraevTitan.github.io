@@ -7,7 +7,7 @@ function sendMessage() {
 
     // Замените 'YOUR_BOT_TOKEN' и 'YOUR_CHAT_ID' на реальные значения
     var botToken = '6769759776:AAEn_U19LMPxR7kMu40x5Okl5SZVHyHNK7U';
-    var chatId = '-1002090034283';
+    var chatId = '-1001948135788';
 
     // Формируем URL для отправки сообщения
     var apiUrl = `https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(message)}`;
